@@ -6,7 +6,7 @@ MAIN_FILE=cmd/server/main.go
 all: build
 
 build:
-	CGO_ENABLED=1 go build -o $(APP_NAME) $(MAIN_FILE)
+	CGO_ENABLED=0 go build -o $(APP_NAME) $(MAIN_FILE)
 
 run: build
 	./$(APP_NAME)
