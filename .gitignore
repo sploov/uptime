@@ -1,0 +1,22 @@
+# Binaries
+uptime-engine
+*.exe
+*.dll
+
+# SQLite
+*.db
+*.db-journal
+*.db-wal
+uptime.db
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+.DS_Store
+
+# Go
+vendor/
+go.work

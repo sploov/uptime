@@ -1,0 +1,17 @@
+targets:
+  - id: "google"
+    name: "Google"
+    url: "https://www.google.com"
+    method: "HTTP"
+    interval: 2s
+    timeout: 2s
+  - id: "example-tcp"
+    name: "Example TCP"
+    url: "google.com:80"
+    method: "TCP"
+    interval: 2s
+    timeout: 3s
+
+discord:
+  enabled: false
+  webhook_url: ""
